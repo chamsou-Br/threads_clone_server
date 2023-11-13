@@ -23,7 +23,8 @@ import {ConfigModule} from "@nestjs/config"
       "synchronize": true
     }),
     UsersModule,
-     ThreadsModule],
+    ThreadsModule
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
